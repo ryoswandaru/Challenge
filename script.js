@@ -1,3 +1,10 @@
+const playerBatu = document.getElementsByClassName('batu');
+const playerKertas = document.getElementsByClassName('kertas');
+const playerGunting = document.getElementsByClassName('gunting');
+const comBatu = document.getElementsByClassName('combatu');
+const comKertas = document.getElementsByClassName('comkertas');
+const comGunting = document.getElementsByClassName('comgunting');
+
 function getComChoise() {
     const com = Math.random();
     if( com < 0.34 ) return "gunting"; 
